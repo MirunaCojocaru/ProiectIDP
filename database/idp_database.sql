@@ -1,3 +1,4 @@
+use db;
 drop table if exists Cereri;
 drop table if exists Utilizatori;
 drop table if exists Zboruri;
