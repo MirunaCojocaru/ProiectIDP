@@ -1,2 +1,2 @@
 # ProiectIDP
-Container application for hotel booking
+Container application for flight booking
