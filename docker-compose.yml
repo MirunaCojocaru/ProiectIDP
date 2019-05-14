@@ -1,0 +1,17 @@
+version: "3"
+services:
+    mysql_container:
+        image: daciana/proiect-idp:database
+        networks: 
+            - app
+        ports: 
+            - "3306:3306"
+    worker1:
+        image: daciana/proiect-idp:worker1
+        networks:
+            - app
+    worker2:
+        image: daciana/proiect-idp:worker2
+        networks:
+            - app
+    
