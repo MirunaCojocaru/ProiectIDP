@@ -1,20 +1,19 @@
 version: "3"
 services:
     mysql_container:
-        image: daciana/proiect-idp:database
+        build: ~/Desktop/repo-idp/ProiectIDP/database
         networks: 
             - app
         ports: 
             - "3306:3306"
     worker1:
-        image: daciana/proiect-idp:worker1
+        build: ~/Desktop/repo-idp/ProiectIDP/worker1
         networks:
             - app
     worker2:
-        image: daciana/proiect-idp:worker2
+        build: ~/Desktop/repo-idp/ProiectIDP/worker2
         networks:
             - app
 networks:
     app:
-    
     
