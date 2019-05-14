@@ -15,8 +15,8 @@ def main():
             
 
     print(mydb)
-    while True:
-        print("abc")
+    #while True:
+        #print("abc")
 
 if __name__ == "__main__":
     main()
